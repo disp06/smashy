@@ -1,0 +1,3 @@
+SRC=src/game.c src/render.c src/world.c src/assets.c src/audio.c src/gfx_soft.c src/plat_pc.c
+smashy_desktop: $(SRC) src/*.h
+	gcc -O2 -g -DDESKTOP -Wall -Wextra -Wno-unused-parameter -Wno-misleading-indentation -o $@ $(SRC) -lm

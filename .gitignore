@@ -1,0 +1,8 @@
+build/
+vbuild/
+work/
+*.vpk
+*.pak
+*.apk
+smashy_desktop
+__pycache__/
